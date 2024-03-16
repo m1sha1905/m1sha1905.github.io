@@ -3,4 +3,4 @@
 # Михаил Заячников
 Сайт robo.school
 
-[Robo.School](m1sha1905.github.io/robo.school/ "Курсы по робототехнике")
+[Robo.School](https://m1sha1905.github.io/robo.school/ "Всплывающая подсказка")
