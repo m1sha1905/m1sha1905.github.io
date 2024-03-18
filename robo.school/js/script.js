@@ -7,6 +7,7 @@ new Swiper('.coach-slider', {
   //   el: ".coach-pagination",
   //   type: "progressbar"
   // }
+  loop: true,
   
   slidesPerView: 3.2,
   watchOverFlow: true,
@@ -20,18 +21,8 @@ new Swiper('.coach-slider', {
     "@1.00": {
       slidesPerView: 3,
     },
-    "@1.50": {
-      slidesPerView: 4,
-    },
   }
 });
-// адаптив для слайдера
-// if (window.innerWidth < 450) {
-//   swiper.params.slidesPerView = 1.5;
-  
-//   swiper.update();
-// }
-// адаптив для слайдера
 
 document.getElementById("header-btn").onclick = function() {
   document.getElementById("last").scrollIntoView({behavior: "smooth"});
