@@ -270,7 +270,27 @@ ul {
 .pack-item-2 {
   margin: 0 40px;
 }
-.pack-item:hover{
+#pack-item-main {
+  max-width: 360px;
+  height: 500px;
+  background-color: #141024;
+  color:#fff;
+  transition-delay: 0.1s;
+  transform: translateY(-5px);
+}
+#pack-item-main .pack-item-title {
+  color:#fff;
+  transition-delay: 0.1s;
+}
+#pack-item-main .pack-item-price{
+  color:#fff;
+  transition-delay: 0.1s;
+}
+#pack-item-main .pack-item-text{
+  color:#fff;
+  transition-delay: 0.1s;
+}
+/* .pack-item:hover{
   max-width: 360px;
   height: 500px;
   background-color: #141024;
@@ -289,7 +309,7 @@ ul {
 .pack-item:hover .pack-item-text{
   color:#fff;
   transition-delay: 0.1s;
-}
+} */
 
 .pack-item-title {
   font-weight: 600;
