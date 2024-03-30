@@ -7,7 +7,7 @@ new Swiper('.coach-slider', {
   //   el: ".coach-pagination",
   //   type: "progressbar"
   // }
-  loop: true,
+  // loop: true,
   
   slidesPerView: 3.2,
   watchOverFlow: true,
