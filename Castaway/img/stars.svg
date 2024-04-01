@@ -1,0 +1,37 @@
+<svg width="110.000000" height="17.000000" viewBox="0 0 110 17" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_191">
+			<rect id="IMAGE" width="18.000000" height="17.000000" transform="translate(23.000000 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip2_193">
+			<rect id="IMAGE" width="18.000000" height="17.000000" transform="translate(69.000000 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip2_196">
+			<rect id="IMAGE" width="18.000000" height="17.000000" transform="translate(46.000000 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip2_199">
+			<rect id="IMAGE" width="18.000000" height="17.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip2_201">
+			<rect id="IMAGE" width="18.000000" height="17.000000" transform="translate(92.000000 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_191)">
+		<path id="Vector" d="M32.01 13.69L36.16 16.2C36.92 16.66 37.85 15.98 37.65 15.12L36.55 10.4L40.22 7.22C40.89 6.64 40.53 5.54 39.65 5.47L34.82 5.06L32.93 0.6C32.59 -0.21 31.43 -0.21 31.09 0.6L29.2 5.05L24.37 5.46C23.49 5.53 23.13 6.63 23.8 7.21L27.47 10.39L26.37 15.11C26.17 15.97 27.1 16.65 27.86 16.19L32.01 13.69Z" fill="#FCFF51" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g clip-path="url(#clip2_193)">
+		<path id="Vector" d="M78.01 13.69L82.16 16.2C82.92 16.66 83.85 15.98 83.65 15.12L82.55 10.4L86.22 7.22C86.89 6.64 86.53 5.54 85.65 5.47L80.82 5.06L78.93 0.6C78.59 -0.21 77.43 -0.21 77.09 0.6L75.2 5.05L70.37 5.46C69.49 5.53 69.13 6.63 69.8 7.21L73.47 10.39L72.37 15.11C72.17 15.97 73.1 16.65 73.86 16.19L78.01 13.69Z" fill="#FCFF51" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g clip-path="url(#clip2_196)">
+		<path id="Vector" d="M55.01 13.69L59.16 16.2C59.92 16.66 60.85 15.98 60.65 15.12L59.55 10.4L63.22 7.22C63.89 6.64 63.53 5.54 62.65 5.47L57.82 5.06L55.93 0.6C55.59 -0.21 54.43 -0.21 54.09 0.6L52.2 5.05L47.37 5.46C46.49 5.53 46.13 6.63 46.8 7.21L50.47 10.39L49.37 15.11C49.17 15.97 50.1 16.65 50.86 16.19L55.01 13.69Z" fill="#FCFF51" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g clip-path="url(#clip2_199)">
+		<path id="Vector" d="M9.01 13.69L13.16 16.2C13.92 16.66 14.85 15.98 14.65 15.12L13.55 10.4L17.22 7.22C17.89 6.64 17.53 5.54 16.65 5.47L11.82 5.06L9.93 0.6C9.59 -0.21 8.43 -0.21 8.09 0.6L6.2 5.05L1.37 5.46C0.49 5.53 0.13 6.63 0.8 7.21L4.47 10.39L3.37 15.11C3.17 15.97 4.1 16.65 4.86 16.19L9.01 13.69Z" fill="#FCFF51" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g clip-path="url(#clip2_201)">
+		<path id="Vector" d="M101.01 13.69L105.16 16.2C105.92 16.66 106.85 15.98 106.65 15.12L105.55 10.4L109.22 7.22C109.89 6.64 109.53 5.54 108.65 5.47L103.82 5.06L101.93 0.6C101.59 -0.21 100.43 -0.21 100.09 0.6L98.2 5.05L93.37 5.46C92.49 5.53 92.13 6.63 92.8 7.21L96.47 10.39L95.37 15.11C95.17 15.97 96.1 16.65 96.86 16.19L101.01 13.69Z" fill="#FCFF51" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
