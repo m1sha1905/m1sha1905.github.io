@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Systemki.ru</title>
+
+    <link href="assets/css/normalize.css" rel="stylesheet">
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link href="assets/css/variables.css" rel="stylesheet">
+    <link href="assets/css/header.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/main-content.css" rel="stylesheet">
+    <link href="assets/css/services.css" rel="stylesheet">
+    <link href="assets/css/news.css" rel="stylesheet">
+    <link href="assets/css/contact.css" rel="stylesheet">
+    <link href="assets/css/footer.css" rel="stylesheet">
+
+</head>
+<body class="home-page">
+<header>
+    <div class="full-width-gray">
+        <div class="container secondary-nav">
+            <ul class="secondary-nav-links">
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="documents.html">Разрешительные документы</a></li>
+                <li><a href="technical-equipment.html">Техническое оснащение</a></li>
+            </ul>
+            <div class="contacts">
+                <p><a href="mailto:vizio@gmail.com">vizio@gmail.com</a></p>
+                <p><a href="tel:+74991234562">+7 (499) 123-45-62</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="full-width-white">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img alt="Systemki.ru" height="auto" src="assets/images/swurg.png" width="150">
+                    <!-- <img alt="Systemki.ru" height="auto" src="assets/images/logo1.svg" width="150"> -->
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О компании</a></li>
+
+                    <li>
+                        <a class="dropdown-link" href="services.html" id="services-link">Услуги <img
+                                alt="Стрелка вниз" class="dropdown-icon" src="assets/images/down.svg"></a>
+                        <div class="submenu" id="services-submenu">
+                            <a href="/systemki/services-title.html">Поставка измерительного оборудования</a>
+                            <a href="/systemki/services-title.html">Создание систем измерений</a>
+                            <a href="/systemki/services-title.html">Проведение измерений под ключ с выездом на
+                                объект</a>
+                            <a href="/systemki/services-title.html">Проведение испытаний на собственных площадках</a>
+                            <a href="/systemki/services-title.html">Трансляция измерений в интернет</a>
+                            <a href="/systemki/services-title.html">Обслуживание систем автоматизации сложного
+                                технологического оборудования</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-link" href="projects.html" id="projects-link">Наши проекты <img
+                                alt="Стрелка вниз" class="dropdown-icon" src="assets/images/down.svg"></a>
+                        <div class="submenu" id="projects-submenu">
+                            <a href="/systemki/project-page.html">АО «Трубодеталь»</a>
+                            <a href="/systemki/project-page.html">АО «Трубодеталь»</a>
+                            <a href="/systemki/project-page.html">АО «Трубодеталь»</a>
+                            <a href="/systemki/project-page.html">АО «Трубодеталь»</a>
+                            <a href="/systemki/project-page.html">АО «Трубодеталь»</a>
+                            <a href="/systemki/project-page.html">АО «Трубодеталь»</a>
+                        </div>
+                    </li>
+
+
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+
+
+                <button class="order-btn" id="scroll-to-contact">Оставить заявку</button>
+
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <img alt="Menu" src="/assets/images/burger-button.svg">
+                </button>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="modal" id="mobile-nav-modal">
+        <div class="modal-content">
+            <img alt="Close" class="close-btn" id="close-modal" src="/assets/images/close-modal.svg">
+            <ul class="mobile-nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="projects.html">Наши проекты</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+
+            <ul class="secondary-nav-links">
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="documents.html">Разрешительные документы</a></li>
+                <li><a href="technical-equipment.html">Техническое оснащение</a></li>
+            </ul>
+
+            <button class="order-btn" id="modal-order-btn">Оставить заявку</button>
+        </div>
+    </div>
+
+
+</header>
+<section class="main-content">
+    <div class="main-heading">
+        <h1>Утилизация отходов</h1>
+        <p>для предприятий в Крыму и Севастополе</p>
+    </div>
+
+    <div class="video-container"></div>
+    <video autoplay class="video-background" loop muted playsinline>
+        <source src="assets/images/кфуhype.mov" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+    </div>
+    <div class="buttons">
+        <button class="main-btn" id="scroll-to-services">Перейти в услуги</button>
+        <button class="main-btn secondary-btn" id="leave-request">Оставить заявку</button>
+    </div>
+</section>
+
+
+<section class="info-section">
+    <div class="info-card">
+        <div class="icon-and-text">
+            <img alt="Иконка опыта" class="info-icon" src="/assets/images/span.svg">
+            <div class="text-content">
+                <h3>15 лет опыта</h3>
+                <p>более 100 выездов на полигоны для утилизации отходов.</p>
+            </div>
+        </div>
+    </div>
+    <div class="info-card">
+        <div class="icon-and-text">
+            <img alt="Иконка подхода" class="info-icon" src="/assets/images/hands.svg">
+            <div class="text-content">
+                <h3>Индивидуальный подход</h3>
+                <p>соблюдаем все условия и сроки, работаем по договору.</p>
+            </div>
+        </div>
+    </div>
+    <div class="info-card">
+        <div class="icon-and-text">
+            <img alt="Иконка услуги под ключ" class="info-icon" src="/assets/images/lock.svg">
+            <div class="text-content">
+                <h3>Цикл услуг «под ключ»</h3>
+                <p>собственное оборудование и полигон для испытаний в естественной среде.</p>
+            </div>
+        </div>
+    </div>
+    <div class="info-card">
+        <div class="icon-and-text">
+            <img alt="Иконка контроля и отчета" class="info-icon" src="/assets/images/docs.svg">
+            <div class="text-content">
+                <h3>Полный контроль и отчет</h3>
+                <p>предоставляем фото, видео и протоколы по итогам испытаний.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-container">
+    <h2 class="service-title">Услуги</h2>
+    <div class="services-wrapper">
+        <div class="service-card">
+            <div class="service-content">
+                <h3>Поставка<br class="desktop-only"> измерительного оборудования</h3>
+                <a class="service-link" href="services-title.html">Подробнее <img alt="Стрелка"
+                                                                                  class="arrow-svg"
+                                                                                  src="assets/images/arrow-right.svg"></a>
+            </div>
+            <div class="service-image">
+                <img alt="Поставка измерительного оборудования" class="services-placeholder" height="180"
+                     src="assets/images/1.svg" width="180">
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-content">
+                <h3>Создание систем измерений</h3>
+                <a class="service-link" href="services-title.html">Подробнее <img alt="Стрелка"
+                                                                                  class="arrow-svg"
+                                                                                  src="assets/images/arrow-right.svg"></a>
+            </div>
+            <div class="service-image">
+                <img alt="Создание систем измерений" class="services-placeholder" src="assets/images/4.svg">
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-content">
+                <h3>Проведение измерений под<br class="desktop-only"> ключ с выездом на объект</h3>
+                <a class="service-link" href="services-title.html">Подробнее <img alt="Стрелка"
+                                                                                  class="arrow-svg"
+                                                                                  src="assets/images/arrow-right.svg"></a>
+            </div>
+            <div class="service-image">
+                <img alt="Проведение измерений под ключ с выездом на объект" class="services-placeholder"
+                     src="assets/images/2.svg">
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-content">
+                <h3>Проведение испытаний<br class="desktop-only"> на собственных площадках</h3>
+                <a class="service-link" href="services-title.html">Подробнее <img alt="Стрелка"
+                                                                                  class="arrow-svg"
+                                                                                  src="assets/images/arrow-right.svg"></a>
+            </div>
+            <div class="service-image">
+                <img alt="Проведение испытаний на собственных площадках" class="services-placeholder"
+                     src="assets/images/5.svg">
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-content">
+                <h3>Трансляция измерений в интернет</h3>
+                <a class="service-link" href="services-title.html">Подробнее <img alt="Стрелка"
+                                                                                  class="arrow-svg"
+                                                                                  src="assets/images/arrow-right.svg"></a>
+            </div>
+            <div class="service-image">
+                <img alt="Трансляция измерений в интернет" class="services-placeholder" src="assets/images/3.svg">
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-content">
+                <h3>Обслуживание систем автоматизации сложного технологического оборудования</h3>
+                <a class="service-link" href="services-title.html">Подробнее <img alt="Стрелка"
+                                                                                  class="arrow-svg"
+                                                                                  src="assets/images/arrow-right.svg"></a>
+            </div>
+            <div class="service-image">
+                <img alt="Обслуживание систем автоматизации сложного технологического оборудования"
+                     class="services-placeholder"
+                     src="assets/images/6.svg">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+        <div class="contact-form">
+            <h2>Остались вопросы?</h2>
+            <p>Опишите вопрос в деталях</p>
+
+            <label for="name">Введите Имя</label>
+            <input id="name" placeholder="Иван" type="text">
+
+            <label for="phone">Введите номер телефона</label>
+            <input id="phone" placeholder="+7" type="tel">
+
+            <label for="question">Опишите суть вопроса</label>
+            <input class="question-input" id="question" placeholder="Введите ваш вопрос" type="text">
+
+
+            <button id="contact-submit-btn">Оставить заявку</button>
+        </div>
+
+
+        <div class="contact-image">
+            <img alt="Изображение отсутствует" src="/assets/images/contact.svg">
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Структура сайта</h4>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="projects.html">Наши проекты</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Информация</h4>
+            <ul>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="documents.html">Разрешительные документы</a></li>
+                <li><a href="technical-equipment.html">Техническое оснащение</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Контакты</h4>
+            <p><a href="mailto:info@systemki.ru">info@systemki.ru</a></p>
+            <p><a href="tel:+74957431182">+7 (495) 743-11-82</a></p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-logo">
+            <img alt="Logo" src="assets/images/logo1.svg">
+        </div>
+        <div class="footer-rights">
+            <p>Наименование организации. Все права защищены © 2024</p>
+        </div>
+        <div class="footer-policy">
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+
+
+<div class="popup" id="popup" style="display: none;">
+    <div class="popup-content">
+        <img alt="Close" class="close-btn" id="close-popup-btn" src="assets/images/close.svg">
+        <h2>Оставьте заявку<br> на оказание услуги</h2>
+        <p>Перезвоним в течение 15 минут</p>
+
+        <form>
+            <label for="popup-name">Как к вам обращаться</label>
+            <input id="popup-name" placeholder="Введите имя" type="text">
+
+            <label for="popup-phone">Контактный номер</label>
+            <input id="popup-phone" placeholder="+7" type="tel">
+
+            <label for="popup-service">Какой вид услуги интересует?</label>
+            <textarea id="popup-service" placeholder="Расскажите чем можем помочь"></textarea>
+
+            <button class="submit-btn" type="submit">Оставить заявку</button>
+        </form>
+    </div>
+</div>
+
+
+<script src="assets/js/main-content.js"></script>
+
+<script src="assets/js/header.js"></script>
+</body>
+</html>
