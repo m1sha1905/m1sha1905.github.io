@@ -1,0 +1,286 @@
+.tech-section {
+    max-width: 1372px;
+    margin: 0 auto;
+    padding: 50px 15px 0;
+    background-color: var(--secondary-bg-color);
+}
+
+
+.tech-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 80px 0;
+}
+
+.tech-content {
+    max-width: 700px;
+}
+
+.tech-title {
+    font-size: 38px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.tech-list {
+    font-size: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.tech-image {
+    width: 572px;
+    height: 305px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tech-image {
+        width: 450px;
+    }
+
+    .equipment-section {
+        width: 90%;
+    }
+}
+
+.tech-equipment-section {
+    width: 100%;
+    max-width: 1372px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 2px;
+    background-color: var(--red-color);
+    margin-top: 5px;
+}
+
+.tech-equipment-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.equipment-cards {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    gap: 20px;
+}
+
+.equipment-cards img {
+    width: 360px;
+    height: 233px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.equipment-text {
+    max-width: 792px;
+
+}
+
+.equipment-text h3 {
+    font-size: var(--font-size-title);
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.equipment-text p {
+    font-weight: 300;
+    font-size: var(--font-size-regular);
+
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+.equipment-section {
+    max-width: 1372px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.equipment-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.equipment-card img {
+    width: 360px;
+    height: 233px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.equipment-content {
+    max-width: 792px
+}
+
+.equipment-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.equipment-content p {
+    font-size: 16px;
+    line-height: 140%;
+    margin: 0 0 10px;
+}
+
+.separator {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
+    width: 1180px;
+}
+
+.equipment-images {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.equipment-images img {
+    max-width: 175px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .equipment-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .equipment-images.dual-photo img {
+        width: 147px;
+    }
+
+    .equipment-card {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto 40px auto;
+        background-color: white;
+        padding: 20px 15px;
+        border-radius: 16px;
+    }
+
+    .equipment-card img,
+    .tech-equipment-card img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .equipment-card p,
+    .tech-equipment-card p {
+        font-size: 16px;
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    .equipment-section {
+        width: 100%;
+        box-shadow: none;
+        padding: 0;
+
+        background-color: transparent;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .breadcrumb {
+        font-size: var(--font-size-small);
+        margin-bottom: 20px;
+    }
+
+    .tech-card {
+        margin: 0 0 80px 0;
+
+        flex-direction: column;
+        padding: 40px 15px;
+    }
+
+    .tech-section {
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .tech-title {
+        width: 90%;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+
+    .tech-list {
+        font-size: 20px;
+        font-weight: 300;
+        padding-bottom: 50px;
+    }
+
+    .equipment-content {
+        text-align: left;
+    }
+
+    .tech-subtitle {
+        font-size: var(--font-size-title);
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .tech-equipment-section {
+        width: 100%;
+        padding: 40px 15px;
+        padding-bottom: 30px;
+    }
+
+    .tech-equipment-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .tech-contact-section {
+        margin-top: 30px;
+    }
+}

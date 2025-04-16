@@ -1,0 +1,28 @@
+:root {
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #F9F9F9;
+    --text-color: #000000;
+    --nav-bg-color: #333333;
+    --header-bg-color: #ffffff;
+    --button-bg-color: #000000;
+    --button-text-color: #ffffff;
+    --grey-color: #DDDDDD;
+    --dark-grey-color: #9f9f9f;
+    --red-color: #E31E24;
+
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --padding-large: 40px;
+
+    --font-regular: 'SFProDisplay', sans-serif;
+    --font-medium: 'SFProDisplay', sans-serif;
+    --font-bold: 'SFProDisplay', sans-serif;
+    --font-light: 'SFProDisplay', sans-serif;
+
+    --font-size-regular: 16px;
+    --font-size-small: 14px;
+    --font-size-h1: 50px;
+    --font-size-h2: 40px;
+    --font-size-title: 18px;
+    --font-size-footer: 14px;
+}
